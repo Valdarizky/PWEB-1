@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background: #092b44;
+    background-image: linear-gradient(to bottom, #345c7c 3%, #051b2b 100%);
+    opacity: 68%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* .navbar__logo {
+    background-color: #131313;
+    background-image: linear-gradient(to top, #FB8CAB 0%, #CF268A 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.1rem;
+} */
+
+.fa-gem {
+    margin-right: 1rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    gap: 1rem;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    opacity: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+
+.navbar__links:hover{
+    background: #04111b;
+    transition: 0.9s;
+    }
+
+.main {
+    background:url(/images/hypebeast.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position:relative;
+    top: 0;
+    z-index: 1;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90 hv;
+    z-index: 1;
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 20px;
+}
+
+.main__content h1{
+    display: flex;
+    justify-self: left;
+    font-family: serif;
+    font-size: 3rem;
+    background-image: linear-gradient(to top, #FB8CAB 0%, #CF268A 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main__content h2{
+    display: flex;
+    justify-self: center;
+    font-family: serif;
+    font-size: 1.3rem;
+    background-image: linear-gradient(to top, #FB8CAB 0%, #CF268A 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.konten {
+
+    margin: auto;
+    justify-content: center;
+    background: url(https://wallpaperaccess.com/full/1829245.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.konten1 h1 {
+    padding-left: 70px;
+    padding-top: 50px;
+    color: aliceblue;
+    
+}
+
+.konten1 h2 {
+    color: thistle;
+    background-color: #092b44;
+    margin:   50px 530px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 1.2rem;    
+    padding: 20px;
+    opacity: 87%;
+}
+
+.konten__photo {
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    width: 227px;
+    height: 303px;
+    /* align-items: center; */
+}
+
+
+.konten2 .konten__riwayat {
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    flex-direction: row;
+}
+
+.konten2 h1 {
+    margin: 80px auto;
+    padding-left: 70px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.konten2 .konten__riwayat .sekolah {
+    padding: 40px 20px;
+    background: #345c7c;
+    color: #fff;
+    width: 360px;
+    margin: 60px;
+    text-align: center;
+    opacity: 85%;
+}
+
+.konten2 .konten__riwayat .sekolah:hover {
+    background: #254d6b;
+    transition: 0.9s;
+}
+
+.konten2 h2 {
+    color: rgb(155, 184, 216);
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.konten2 p{
+    font-size: 0.8rem;
+}
+
+.konten3 h1 {
+    margin: 80px auto;
+    padding-left: 70px;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.konten3 .konten__non {
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    flex-direction: row;
+} 
+
+.konten3 .konten__non .riwayat {
+    padding: 40px 20px;
+    background: #345c7c;
+    color: #fff;
+    width: 360px;
+    margin: 60px;
+    text-align: center;
+    opacity: 85%;
+}
+
+.konten3 .konten__non .riwayat {
+    background: #254d6b;
+    transition: 0.9s;
+}
+
+.riwayat h2 {
+    color: rgb(155, 184, 216);
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+.riwayat p {
+    font-size: 0.8rem;
+}
+
+.closing {
+    margin: 0 auto;
+    justify-content: center;
+    color: beige;
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+    background: #092b44;
+    background-image: linear-gradient(to bottom, #345c7c 3%, #051b2b 100%);
+    height: 60px;
+}
